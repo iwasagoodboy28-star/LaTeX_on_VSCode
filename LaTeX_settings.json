@@ -1,26 +1,4 @@
-# LaTeX_on_VSCode
-This is a json file for building LaTeX environment on VSCode with LaTeX Workshop.
-
-# How to use
-
-1. Make sure TeXLive and VSCode are installed on your PC. You can check the installation of TeXLive by running command like this.
-    ```
-    latex --version
-    ```
-
-1. Add extension "LaTeX Workshop " by James-Yu to your VSCode.
-
-    ![screenshot](LaTeX-Workshop.png)
-
-1. Open settings.json in your VSCode and add cord in LaTeX_settings.
-json in this repository.
-
-    ![screenshot](Setting-1.png)
-
-    ![screenshot](Setting-2.png)
-
-    ```json
-    //ソースコードの折り返し有効化
+     //ソースコードの折り返し有効化
     "[ latex]": {
     "editor.wordWrap": "on"
     },
@@ -202,23 +180,3 @@ json in this repository.
     ],
     //自動ビルドは無効化
     "latex-workshop.latex.autoBuild.run": "never",
-    ```
-
-
-1. You can choose a compile engine by typing 
-
-    ```
-    > build with recipe
-    ```` 
-    on searching window or menu on the left side in your VSCode. 
-
-    ![screenshot](Building-with-recipe.png)
-    
-    ![screenshot](Building-with-recipe2.png)
-
-
-1. You can also set your original shortcut.
-
-
-
-
