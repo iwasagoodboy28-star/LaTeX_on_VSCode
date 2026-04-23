@@ -10,14 +10,14 @@ This is a json file for building LaTeX environment on VSCode with LaTeX Workshop
 
 1. Add extension "LaTeX Workshop " by James-Yu to your VSCode.
 
-    ![screenshot](LaTeX-Workshop.png)
+    ![screenshot](screenshots/LaTeX-Workshop.png)
 
 1. Open settings.json in your VSCode and add cord in LaTeX_settings.
 json in this repository.
 
-    ![screenshot](Setting-1.png)
+    ![screenshot](screenshots/Setting-1.png)
 
-    ![screenshot](Setting-2.png)
+    ![screenshot](screenshots/Setting-2.png)
 
     ```json
     //ソースコードの折り返し有効化
@@ -212,9 +212,9 @@ json in this repository.
     ```` 
     on searching window or menu on the left side in your VSCode. 
 
-    ![screenshot](Building-with-recipe.png)
+    ![screenshot](screenshots/Building-with-recipe.png)
     
-    ![screenshot](Building-with-recipe2.png)
+    ![screenshot](screenshots/Building-with-recipe2.png)
 
 
 1. You can also set your original shortcut.
