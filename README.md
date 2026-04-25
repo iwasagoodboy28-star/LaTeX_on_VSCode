@@ -12,12 +12,13 @@ This is a json file for building LaTeX environment on VSCode with LaTeX Workshop
 
     ![screenshot](screenshots/LaTeX-Workshop.png)
 
-1. Open settings.json in your VSCode and add cord in LaTeX_settings.
-json in this repository.
+1. Open settings.json in your VSCode.
 
     ![screenshot](screenshots/Setting-1.png)
 
     ![screenshot](screenshots/Setting-2.png)
+
+1. Add cord in `LaTeX_settings.json` in this repository to `settings.json` in your VSCode.
 
     ```json
     //ソースコードの折り返し有効化
