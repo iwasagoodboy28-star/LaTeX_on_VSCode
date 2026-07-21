@@ -1,24 +1,41 @@
 # LaTeX_on_VSCode
+これは, LaTeX環境をVSCodeのLaTeX Workshop拡張機能を用いてセットアップするためのjsonファイルです.
+
 This is a json file for building LaTeX environment on VSCode with LaTeX Workshop.
 
 # How to use
 
-1. Make sure TeXLive and VSCode are installed on your PC. You can check the installation of TeXLive by running command like this.
+1. TeXLive と VSCode がPCにインストールされていることを確認してください. 例えば, TeXLive がシステムにインストールされているかは, 
+    ```
+    latex --version
+    ```
+    のようなコマンドをターミナルに入力することで確認できます.
+    
+    Make sure TeXLive and VSCode are installed on your PC. You can check the installation of TeXLive by running command like this.
     ```
     latex --version
     ```
 
-1. Add extension "LaTeX Workshop " by James-Yu to your VSCode.
+1. James-Yu の, "LaTeX Workshop "という拡張機能をVSCodeにインストールします. 
+   
+   Add extension "LaTeX Workshop " by James-Yu to your VSCode.
 
     ![screenshot](screenshots/LaTeX-Workshop.png)
 
-1. Open settings.json in your VSCode.
+2. VSCodeの `setting.json` を開きます.
+   
+   Open `settings.json` in your VSCode.
 
     ![screenshot](screenshots/Setting-1.png)
 
     ![screenshot](screenshots/Setting-2.png)
 
-1. Add cord in `LaTeX_settings.json` in this repository to `settings.json` in your VSCode.
+3. このリポジトリにある, `LaTeX_setting.json` のコードを,  VSCodeの `settings.json` に追加します.
+    
+    Add cord in `LaTeX_settings.json` in this repository to `settings.json` in your VSCode.
+
+    
+    ![screenshot](screenshots/Setting-3.png)
 
     ```json
     //ソースコードの折り返し有効化
@@ -206,7 +223,13 @@ This is a json file for building LaTeX environment on VSCode with LaTeX Workshop
     ```
 
 
-1. You can choose a compile engine by typing 
+4. 検索窓に 
+    ```
+    > build with recipe
+    ```` 
+    と入力するか, 左側サイドバーのメニューから, コンパイルするエンジンを選ぶことができます.
+    
+    You can choose a compile engine by typing 
 
     ```
     > build with recipe
@@ -218,7 +241,9 @@ This is a json file for building LaTeX environment on VSCode with LaTeX Workshop
     ![screenshot](screenshots/Building-with-recipe2.png)
 
 
-1. You can also set your original shortcut.
+5. コンパイルエンジンのメニューを表示するための, オリジナルのショートカットを追加することもできます.
+   
+   You can also set your original shortcut to show compile menu.
 
 
 
